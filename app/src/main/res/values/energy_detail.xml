@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="power_item">
+        <item>Household Appliances</item>
+        <item>Wind</item>
+        <item>Solar Energy</item>
+    </array>
+
+    <array name="fuel_item">wa
+        <item>Natural Gas</item>
+        <item>LPG</item>
+    </array>
+
+    <array name="water_item">
+        <item>Tap Water</item>
+    </array>
+
+
+</resources>

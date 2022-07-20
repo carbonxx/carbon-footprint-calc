@@ -1,9 +1,0 @@
-<resources>
-    <string-array name="bill_type">
-
-        <item>"Electricidad"</item>
-
-        <item>"Gas natural"</item>
-
-    </string-array>
-</resources>

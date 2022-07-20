@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="incineration_item">
+        <item>Northern</item>
+        <item>Central</item>
+        <item>Southern</item>
+    </array>
+
+    <array name="waste_water_item">
+        <item>Sewage</item>
+    </array>
+
+    <array name="recover_item">
+        <item>Recycle</item>
+    </array>
+
+    <array name="hotel_item">
+        <item>General Accomodation</item>
+    </array>
+
+    <array name="shipment_item">
+        <item>Large Tanker</item>
+        <item>Diesel Steamer</item>
+        <item>Gasoline Steamer</item>
+    </array>
+
+    <array name="airLift_item">
+        <item>General Airliner</item>
+    </array>
+</resources>

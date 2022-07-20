@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.nian.carbout.Fab
+            android:id="@+id/Add_fab"
+            style="@style/Widget.MaterialSheetFab.Fab"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            />
+
+        <!-- Overlay that dims the screen -->
+        <com.gordonwong.materialsheetfab.DimOverlayFrameLayout
+            android:id="@+id/overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- Circular reveal container for the sheet -->
+        <io.codetail.widget.RevealLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right|bottom"
+            android:orientation="vertical">
+
+            <!-- Sheet that contains your items -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/fab_sheet"
+                style="@style/Widget.MaterialSheetFab.Sheet">
+
+                <!-- Sheet items -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Transport -->
+                    <TextView
+                        android:id="@+id/fab_sheet_item_transport"
+                        style="@style/TextAppearance.MaterialSheetFab.Sheet.Item"
+                        android:drawableLeft="@drawable/ic_bus_grey600_24dp"
+                        android:drawableStart="@drawable/ic_bus_grey600_24dp"
+                        android:text="@string/transport" />
+
+                    <!-- Shopping -->
+                    <TextView
+                        android:id="@+id/fab_sheet_item_shopping"
+                        style="@style/TextAppearance.MaterialSheetFab.Sheet.Item"
+                        android:drawableLeft="@drawable/ic_cart_grey600_24dp"
+                        android:drawableStart="@drawable/ic_cart_grey600_24dp"
+                        android:text="@string/shopping" />
+
+                    <!-- Power -->
+                    <TextView
+                        android:id="@+id/fab_sheet_item_power"
+                        style="@style/TextAppearance.MaterialSheetFab.Sheet.Item"
+                        android:drawableLeft="@drawable/ic_power_plug_grey600_24dp"
+                        android:drawableStart="@drawable/ic_power_plug_grey600_24dp"
+                        android:text="@string/power" />
+
+                    <TextView
+                        android:id="@+id/fab_sheet_item_service"
+                        style="@style/TextAppearance.MaterialSheetFab.Sheet.Item"
+                        android:drawableLeft="@drawable/ic_account_plus_grey600_24dp"
+                        android:drawableStart="@drawable/ic_account_plus_grey600_24dp"
+                        android:text="@string/service" />
+
+                    <TextView
+                        android:id="@+id/fab_sheet_item_trash"
+                        style="@style/TextAppearance.MaterialSheetFab.Sheet.Item"
+                        android:drawableLeft="@drawable/ic_delete_grey600_24dp"
+                        android:drawableStart="@drawable/ic_delete_grey600_24dp"
+                        android:text="@string/trash" />
+
+                    <!-- Note -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary">
+
+                        <TextView
+                            android:id="@+id/fab_sheet_item_self"
+                            style="@style/TextAppearance.MaterialSheetFab.Sheet.Item"
+                            android:drawableLeft="@drawable/ic_create_grey600_24dp"
+                            android:drawableStart="@drawable/ic_create_grey600_24dp"
+                            android:text="@string/self" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </io.codetail.widget.RevealLinearLayout>
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.DrawerLayout>

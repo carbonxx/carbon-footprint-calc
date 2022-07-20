@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="TRA_item">
+        <item>Standing Ticker</item>
+        <item>Express</item>
+        <item>Interval</item>
+        <item>Self Improvement</item>
+    </array>
+
+    <array name="transport_item">
+        <item>Southern Railway</item>
+        <item>Northern Railway</item>
+    </array>
+
+
+</resources>
