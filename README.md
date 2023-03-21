@@ -5,7 +5,4 @@ An App for Tracking Daily Carbon Footprint
 - Calculate average carbon footprint with price when riding public transport
 
 
-### Screenshot
-![screenshot-1](https://yt8956gh.github.io/images/APP-intro.svg)
-
 
